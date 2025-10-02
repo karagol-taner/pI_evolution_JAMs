@@ -1,0 +1,29 @@
+# This file was created Sun Sep 21 13:31:14 2025
+# Created by:
+#                       :-) GROMACS - gmx rms, 2025.2 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /content/drive/MyDrive/MD/JAM_pH/JAMB/gromacs
+# Command line:
+#   gmx rms -s /content/drive/MyDrive/MD/JAM_pH/JAMB/gromacs/10.50/pH_10.50pH_10.50_1.tpr -f /content/drive/MyDrive/MD/JAM_pH/JAMB/gromacs/10.50/pH_10.50pH_10.50_10.xtc -o /content/drive/MyDrive/MD/JAM_pH/JAMB/gromacs/10.50/pH_10.50pH_10.50_10_rmsd.xvg
+# gmx rms is part of G R O M A C S:
+#
+# GRoups of Organic Molecules in ACtion for Science
+#
+@    title "RMSD"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "RMSD (nm)"
+@TYPE xy
+@ subtitle "Protein after lsq fit to Protein"
+   0.0000000    0.2209229
+ 100.0000000    0.2384507
+ 200.0000000    0.2170676
+ 300.0000000    0.2112270
+ 400.0000000    0.2763028
+ 500.0000000    0.2935301
+ 600.0000000    0.2555248
+ 700.0000000    0.2573560
+ 800.0000000    0.2947070
+ 900.0000000    0.2478986
+1000.0000000    0.2516255

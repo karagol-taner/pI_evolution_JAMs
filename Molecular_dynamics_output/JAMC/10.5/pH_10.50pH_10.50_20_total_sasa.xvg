@@ -1,0 +1,35 @@
+# This file was created Sun Sep 21 10:55:24 2025
+# Created by:
+#                       :-) GROMACS - gmx sasa, 2025.2 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /content/drive/MyDrive/MD/JAM_pH/JAMC/gromacs
+# Command line:
+#   gmx sasa -s /content/drive/MyDrive/MD/JAM_pH/JAMC/gromacs/10.50/pH_10.50pH_10.50_1.tpr -f /content/drive/MyDrive/MD/JAM_pH/JAMC/gromacs/10.50/pH_10.50pH_10.50_20.xtc -o /content/drive/MyDrive/MD/JAM_pH/JAMC/gromacs/10.50/pH_10.50pH_10.50_20_total_sasa.xvg -or /content/drive/MyDrive/MD/JAM_pH/JAMC/gromacs/10.50/pH_10.50pH_10.50_20_sasa.xvg
+# gmx sasa is part of G R O M A C S:
+#
+# GROningen Mixture of Alchemy and Childrens' Stories
+#
+@    title "Solvent Accessible Surface"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Area (nm\S2\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Total"
+      0.000  125.061
+    100.000  122.703
+    200.000  124.612
+    300.000  127.352
+    400.000  127.300
+    500.000  126.182
+    600.000  128.419
+    700.000  124.064
+    800.000  124.847
+    900.000  125.082
+   1000.000  126.356

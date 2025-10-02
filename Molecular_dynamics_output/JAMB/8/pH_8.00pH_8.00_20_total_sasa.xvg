@@ -1,0 +1,35 @@
+# This file was created Sun Sep 21 13:28:40 2025
+# Created by:
+#                       :-) GROMACS - gmx sasa, 2025.2 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /content/drive/MyDrive/MD/JAM_pH/JAMB/gromacs
+# Command line:
+#   gmx sasa -s /content/drive/MyDrive/MD/JAM_pH/JAMB/gromacs/8.00/pH_8.00pH_8.00_1.tpr -f /content/drive/MyDrive/MD/JAM_pH/JAMB/gromacs/8.00/pH_8.00pH_8.00_20.xtc -o /content/drive/MyDrive/MD/JAM_pH/JAMB/gromacs/8.00/pH_8.00pH_8.00_20_total_sasa.xvg -or /content/drive/MyDrive/MD/JAM_pH/JAMB/gromacs/8.00/pH_8.00pH_8.00_20_sasa.xvg
+# gmx sasa is part of G R O M A C S:
+#
+# Giant Rising Ordinary Mutants for A Clerical Setup
+#
+@    title "Solvent Accessible Surface"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Area (nm\S2\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Total"
+      0.000  122.119
+    100.000  123.301
+    200.000  122.294
+    300.000  121.038
+    400.000  119.262
+    500.000  121.866
+    600.000  123.019
+    700.000  122.974
+    800.000  123.416
+    900.000  120.976
+   1000.000  122.202

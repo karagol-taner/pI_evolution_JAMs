@@ -1,0 +1,29 @@
+# This file was created Sun Sep 21 13:16:02 2025
+# Created by:
+#                       :-) GROMACS - gmx rms, 2025.2 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /content/drive/MyDrive/MD/JAM_pH/JAMB/gromacs
+# Command line:
+#   gmx rms -s /content/drive/MyDrive/MD/JAM_pH/JAMA/gromacs/10.50/pH_10.50pH_10.50_1.tpr -f /content/drive/MyDrive/MD/JAM_pH/JAMA/gromacs/10.50/pH_10.50pH_10.50_10.xtc -o /content/drive/MyDrive/MD/JAM_pH/JAMA/gromacs/10.50/pH_10.50pH_10.50_10_rmsd.xvg
+# gmx rms is part of G R O M A C S:
+#
+# Gyas ROwers Mature At Cryogenic Speed
+#
+@    title "RMSD"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "RMSD (nm)"
+@TYPE xy
+@ subtitle "Protein after lsq fit to Protein"
+   0.0000000    0.5473338
+ 100.0000000    0.5283329
+ 200.0000000    0.5029114
+ 300.0000000    0.5072052
+ 400.0000000    0.4912364
+ 500.0000000    0.4629644
+ 600.0000000    0.5166372
+ 700.0000000    0.5369030
+ 800.0000000    0.4220790
+ 900.0000000    0.5933642
+1000.0000000    0.4324622

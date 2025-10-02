@@ -1,0 +1,29 @@
+# This file was created Sun Sep 21 13:23:57 2025
+# Created by:
+#                       :-) GROMACS - gmx rms, 2025.2 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /content/drive/MyDrive/MD/JAM_pH/JAMB/gromacs
+# Command line:
+#   gmx rms -s /content/drive/MyDrive/MD/JAM_pH/JAMB/gromacs/8.00/pH_8.00pH_8.00_4.tpr -f /content/drive/MyDrive/MD/JAM_pH/JAMB/gromacs/8.00/pH_8.00pH_8.00_10.xtc -o /content/drive/MyDrive/MD/JAM_pH/JAMB/gromacs/8.00/pH_8.00pH_8.00_10.xtc_rmsd.xvg
+# gmx rms is part of G R O M A C S:
+#
+# Great Red Owns Many ACres of Sand 
+#
+@    title "RMSD"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "RMSD (nm)"
+@TYPE xy
+@ subtitle "Protein after lsq fit to Protein"
+   0.0000000    0.1816805
+ 100.0000000    0.1832794
+ 200.0000000    0.1885698
+ 300.0000000    0.1991481
+ 400.0000000    0.1879580
+ 500.0000000    0.2157057
+ 600.0000000    0.2368101
+ 700.0000000    0.2059821
+ 800.0000000    0.1874409
+ 900.0000000    0.2724676
+1000.0000000    0.2182910

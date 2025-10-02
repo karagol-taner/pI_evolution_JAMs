@@ -1,0 +1,29 @@
+# This file was created Sun Sep 21 13:15:43 2025
+# Created by:
+#                       :-) GROMACS - gmx rms, 2025.2 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /content/drive/MyDrive/MD/JAM_pH/JAMB/gromacs
+# Command line:
+#   gmx rms -s /content/drive/MyDrive/MD/JAM_pH/JAMA/gromacs/8.50/pH_8.50pH_8.50_1.tpr -f /content/drive/MyDrive/MD/JAM_pH/JAMA/gromacs/8.50/pH_8.50pH_8.50_20.xtc -o /content/drive/MyDrive/MD/JAM_pH/JAMA/gromacs/8.50/pH_8.50pH_8.50_20_rmsd.xvg
+# gmx rms is part of G R O M A C S:
+#
+# GROwing Monsters And Cloning Shrimps
+#
+@    title "RMSD"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "RMSD (nm)"
+@TYPE xy
+@ subtitle "Protein after lsq fit to Protein"
+   0.0000000    0.3770906
+ 100.0000000    0.3636611
+ 200.0000000    0.2929401
+ 300.0000000    0.3671134
+ 400.0000000    0.3355812
+ 500.0000000    0.2498704
+ 600.0000000    0.3357016
+ 700.0000000    0.3078848
+ 800.0000000    0.2984411
+ 900.0000000    0.3307902
+1000.0000000    0.3263555

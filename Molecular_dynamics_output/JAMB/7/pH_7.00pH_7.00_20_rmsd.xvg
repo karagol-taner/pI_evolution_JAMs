@@ -1,0 +1,29 @@
+# This file was created Sun Sep 21 13:30:32 2025
+# Created by:
+#                       :-) GROMACS - gmx rms, 2025.2 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /content/drive/MyDrive/MD/JAM_pH/JAMB/gromacs
+# Command line:
+#   gmx rms -s /content/drive/MyDrive/MD/JAM_pH/JAMB/gromacs/7.00/pH_7.00pH_7.00_1.tpr -f /content/drive/MyDrive/MD/JAM_pH/JAMB/gromacs/7.00/pH_7.00pH_7.00_20.xtc -o /content/drive/MyDrive/MD/JAM_pH/JAMB/gromacs/7.00/pH_7.00pH_7.00_20_rmsd.xvg
+# gmx rms is part of G R O M A C S:
+#
+# Good ROcking Metal Altar for Chronical Sinners
+#
+@    title "RMSD"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "RMSD (nm)"
+@TYPE xy
+@ subtitle "Protein after lsq fit to Protein"
+   0.0000000    0.2320846
+ 100.0000000    0.1948719
+ 200.0000000    0.2532712
+ 300.0000000    0.2226152
+ 400.0000000    0.2137035
+ 500.0000000    0.2264005
+ 600.0000000    0.2466301
+ 700.0000000    0.2387199
+ 800.0000000    0.2159954
+ 900.0000000    0.2549426
+1000.0000000    0.2516607

@@ -1,0 +1,35 @@
+# This file was created Sun Sep 21 10:56:03 2025
+# Created by:
+#                       :-) GROMACS - gmx sasa, 2025.2 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /content/drive/MyDrive/MD/JAM_pH/JAMA/gromacs
+# Command line:
+#   gmx sasa -s /content/drive/MyDrive/MD/JAM_pH/JAMA/gromacs/9.50/pH_9.50pH_9.50_1.tpr -f /content/drive/MyDrive/MD/JAM_pH/JAMA/gromacs/9.50/pH_9.50pH_9.50_20.xtc -o /content/drive/MyDrive/MD/JAM_pH/JAMA/gromacs/9.50/pH_9.50pH_9.50_20_total_sasa.xvg -or /content/drive/MyDrive/MD/JAM_pH/JAMA/gromacs/9.50/pH_9.50pH_9.50_20_sasa.xvg
+# gmx sasa is part of G R O M A C S:
+#
+# Good gRace! Old Maple Actually Chews Slate
+#
+@    title "Solvent Accessible Surface"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Area (nm\S2\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Total"
+      0.000  114.827
+    100.000  114.733
+    200.000  115.070
+    300.000  113.615
+    400.000  115.819
+    500.000  114.715
+    600.000  114.425
+    700.000  114.004
+    800.000  114.270
+    900.000  113.724
+   1000.000  113.075

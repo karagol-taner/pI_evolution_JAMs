@@ -1,0 +1,35 @@
+# This file was created Sun Sep 21 10:56:32 2025
+# Created by:
+#                       :-) GROMACS - gmx sasa, 2025.2 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /content/drive/MyDrive/MD/JAM_pH/JAMA/gromacs
+# Command line:
+#   gmx sasa -s /content/drive/MyDrive/MD/JAM_pH/JAMA/gromacs/10.50/pH_10.50pH_10.50_1.tpr -f /content/drive/MyDrive/MD/JAM_pH/JAMA/gromacs/10.50/pH_10.50pH_10.50_20.xtc -o /content/drive/MyDrive/MD/JAM_pH/JAMA/gromacs/10.50/pH_10.50pH_10.50_20_total_sasa.xvg -or /content/drive/MyDrive/MD/JAM_pH/JAMA/gromacs/10.50/pH_10.50pH_10.50_20_sasa.xvg
+# gmx sasa is part of G R O M A C S:
+#
+# Gallium Rubidium Oxygen Manganese Argon Carbon Silicon
+#
+@    title "Solvent Accessible Surface"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Area (nm\S2\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Total"
+      0.000  119.584
+    100.000  116.050
+    200.000  117.227
+    300.000  113.443
+    400.000  115.808
+    500.000  112.798
+    600.000  114.732
+    700.000  114.215
+    800.000  112.791
+    900.000  114.713
+   1000.000  115.792

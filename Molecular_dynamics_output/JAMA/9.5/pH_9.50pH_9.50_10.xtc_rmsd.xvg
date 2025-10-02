@@ -1,0 +1,29 @@
+# This file was created Sun Sep 21 13:13:24 2025
+# Created by:
+#                       :-) GROMACS - gmx rms, 2025.2 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /content/drive/MyDrive/MD/JAM_pH/JAMB/gromacs
+# Command line:
+#   gmx rms -s /content/drive/MyDrive/MD/JAM_pH/JAMA/gromacs/9.50/pH_9.50pH_9.50_14.tpr -f /content/drive/MyDrive/MD/JAM_pH/JAMA/gromacs/9.50/pH_9.50pH_9.50_10.xtc -o /content/drive/MyDrive/MD/JAM_pH/JAMA/gromacs/9.50/pH_9.50pH_9.50_10.xtc_rmsd.xvg
+# gmx rms is part of G R O M A C S:
+#
+# Great Red Oystrich Makes All Chemists Sane
+#
+@    title "RMSD"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "RMSD (nm)"
+@TYPE xy
+@ subtitle "Protein after lsq fit to Protein"
+   0.0000000    0.2014188
+ 100.0000000    0.2569141
+ 200.0000000    0.3414831
+ 300.0000000    0.3035444
+ 400.0000000    0.3227338
+ 500.0000000    0.4004377
+ 600.0000000    0.2980174
+ 700.0000000    0.2471762
+ 800.0000000    0.2314390
+ 900.0000000    0.2531185
+1000.0000000    0.2111123

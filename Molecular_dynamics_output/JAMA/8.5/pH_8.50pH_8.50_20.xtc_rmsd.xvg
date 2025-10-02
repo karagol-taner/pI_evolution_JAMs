@@ -1,0 +1,29 @@
+# This file was created Sun Sep 21 13:12:57 2025
+# Created by:
+#                       :-) GROMACS - gmx rms, 2025.2 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /content/drive/MyDrive/MD/JAM_pH/JAMB/gromacs
+# Command line:
+#   gmx rms -s /content/drive/MyDrive/MD/JAM_pH/JAMA/gromacs/8.50/pH_8.50pH_8.50_13.tpr -f /content/drive/MyDrive/MD/JAM_pH/JAMA/gromacs/8.50/pH_8.50pH_8.50_20.xtc -o /content/drive/MyDrive/MD/JAM_pH/JAMA/gromacs/8.50/pH_8.50pH_8.50_20.xtc_rmsd.xvg
+# gmx rms is part of G R O M A C S:
+#
+# Gnomes, ROck Monsters And Chili Sauce
+#
+@    title "RMSD"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "RMSD (nm)"
+@TYPE xy
+@ subtitle "Protein after lsq fit to Protein"
+   0.0000000    0.2523959
+ 100.0000000    0.2801028
+ 200.0000000    0.2668587
+ 300.0000000    0.3133346
+ 400.0000000    0.2592376
+ 500.0000000    0.2397348
+ 600.0000000    0.2132662
+ 700.0000000    0.2396025
+ 800.0000000    0.2386281
+ 900.0000000    0.2130949
+1000.0000000    0.2324406

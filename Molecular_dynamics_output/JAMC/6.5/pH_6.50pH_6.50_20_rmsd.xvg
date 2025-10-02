@@ -1,0 +1,29 @@
+# This file was created Sun Sep 21 13:14:10 2025
+# Created by:
+#                       :-) GROMACS - gmx rms, 2025.2 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /content/drive/MyDrive/MD/JAM_pH/JAMB/gromacs
+# Command line:
+#   gmx rms -s /content/drive/MyDrive/MD/JAM_pH/JAMC/gromacs/6.50/pH_6.50pH_6.50_1.tpr -f /content/drive/MyDrive/MD/JAM_pH/JAMC/gromacs/6.50/pH_6.50pH_6.50_20.xtc -o /content/drive/MyDrive/MD/JAM_pH/JAMC/gromacs/6.50/pH_6.50pH_6.50_20_rmsd.xvg
+# gmx rms is part of G R O M A C S:
+#
+# God Rules Over Mankind, Animals, Cosmos and Such
+#
+@    title "RMSD"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "RMSD (nm)"
+@TYPE xy
+@ subtitle "Protein after lsq fit to Protein"
+   0.0000000    0.2315034
+ 100.0000000    0.2657899
+ 200.0000000    0.2520254
+ 300.0000000    0.2418485
+ 400.0000000    0.2631762
+ 500.0000000    0.2442459
+ 600.0000000    0.2486438
+ 700.0000000    0.2527322
+ 800.0000000    0.2454250
+ 900.0000000    0.2716823
+1000.0000000    0.2776111

@@ -1,0 +1,29 @@
+# This file was created Sun Sep 21 13:12:15 2025
+# Created by:
+#                       :-) GROMACS - gmx rms, 2025.2 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /content/drive/MyDrive/MD/JAM_pH/JAMB/gromacs
+# Command line:
+#   gmx rms -s /content/drive/MyDrive/MD/JAM_pH/JAMA/gromacs/7.50/pH_7.50pH_7.50_16.tpr -f /content/drive/MyDrive/MD/JAM_pH/JAMA/gromacs/7.50/pH_7.50pH_7.50_20.xtc -o /content/drive/MyDrive/MD/JAM_pH/JAMA/gromacs/7.50/pH_7.50pH_7.50_20.xtc_rmsd.xvg
+# gmx rms is part of G R O M A C S:
+#
+# GROningen Mixture of Alchemy and Childrens' Stories
+#
+@    title "RMSD"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "RMSD (nm)"
+@TYPE xy
+@ subtitle "Protein after lsq fit to Protein"
+   0.0000000    0.2330791
+ 100.0000000    0.2033013
+ 200.0000000    0.2144393
+ 300.0000000    0.2080073
+ 400.0000000    0.2623832
+ 500.0000000    0.2286047
+ 600.0000000    0.2198844
+ 700.0000000    0.1959949
+ 800.0000000    0.2181696
+ 900.0000000    0.2721510
+1000.0000000    0.3171906

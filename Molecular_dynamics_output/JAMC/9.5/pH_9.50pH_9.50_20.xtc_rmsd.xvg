@@ -1,0 +1,29 @@
+# This file was created Sun Sep 21 13:10:34 2025
+# Created by:
+#                       :-) GROMACS - gmx rms, 2025.2 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /content/drive/MyDrive/MD/JAM_pH/JAMB/gromacs
+# Command line:
+#   gmx rms -s /content/drive/MyDrive/MD/JAM_pH/JAMC/gromacs/9.50/pH_9.50pH_9.50_20.tpr -f /content/drive/MyDrive/MD/JAM_pH/JAMC/gromacs/9.50/pH_9.50pH_9.50_20.xtc -o /content/drive/MyDrive/MD/JAM_pH/JAMC/gromacs/9.50/pH_9.50pH_9.50_20.xtc_rmsd.xvg
+# gmx rms is part of G R O M A C S:
+#
+# Glycine aRginine prOline Methionine Alanine Cystine Serine
+#
+@    title "RMSD"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "RMSD (nm)"
+@TYPE xy
+@ subtitle "Protein after lsq fit to Protein"
+   0.0000000    0.0004992
+ 100.0000000    0.1191840
+ 200.0000000    0.1461272
+ 300.0000000    0.1583990
+ 400.0000000    0.1553760
+ 500.0000000    0.1360790
+ 600.0000000    0.1684820
+ 700.0000000    0.1286658
+ 800.0000000    0.1350968
+ 900.0000000    0.1311287
+1000.0000000    0.1339456

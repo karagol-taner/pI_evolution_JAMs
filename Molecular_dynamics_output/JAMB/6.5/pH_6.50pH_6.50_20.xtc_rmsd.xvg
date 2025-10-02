@@ -1,0 +1,29 @@
+# This file was created Sun Sep 21 13:23:40 2025
+# Created by:
+#                       :-) GROMACS - gmx rms, 2025.2 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /content/drive/MyDrive/MD/JAM_pH/JAMB/gromacs
+# Command line:
+#   gmx rms -s /content/drive/MyDrive/MD/JAM_pH/JAMB/gromacs/6.50/pH_6.50pH_6.50_4.tpr -f /content/drive/MyDrive/MD/JAM_pH/JAMB/gromacs/6.50/pH_6.50pH_6.50_20.xtc -o /content/drive/MyDrive/MD/JAM_pH/JAMB/gromacs/6.50/pH_6.50pH_6.50_20.xtc_rmsd.xvg
+# gmx rms is part of G R O M A C S:
+#
+# GROtesk MACabre and Sinister
+#
+@    title "RMSD"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "RMSD (nm)"
+@TYPE xy
+@ subtitle "Protein after lsq fit to Protein"
+   0.0000000    0.3475471
+ 100.0000000    0.3495575
+ 200.0000000    0.3191097
+ 300.0000000    0.4057527
+ 400.0000000    0.3205006
+ 500.0000000    0.2921730
+ 600.0000000    0.3155408
+ 700.0000000    0.2994001
+ 800.0000000    0.3164123
+ 900.0000000    0.3520783
+1000.0000000    0.4663884

@@ -1,0 +1,29 @@
+# This file was created Sun Sep 21 13:30:42 2025
+# Created by:
+#                       :-) GROMACS - gmx rms, 2025.2 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /content/drive/MyDrive/MD/JAM_pH/JAMB/gromacs
+# Command line:
+#   gmx rms -s /content/drive/MyDrive/MD/JAM_pH/JAMB/gromacs/8.00/pH_8.00pH_8.00_1.tpr -f /content/drive/MyDrive/MD/JAM_pH/JAMB/gromacs/8.00/pH_8.00pH_8.00_10.xtc -o /content/drive/MyDrive/MD/JAM_pH/JAMB/gromacs/8.00/pH_8.00pH_8.00_10_rmsd.xvg
+# gmx rms is part of G R O M A C S:
+#
+# Guyana Rwanda Oman Macau Angola Cameroon Senegal
+#
+@    title "RMSD"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "RMSD (nm)"
+@TYPE xy
+@ subtitle "Protein after lsq fit to Protein"
+   0.0000000    0.2004922
+ 100.0000000    0.2066507
+ 200.0000000    0.2167789
+ 300.0000000    0.2338621
+ 400.0000000    0.2314613
+ 500.0000000    0.2050429
+ 600.0000000    0.2805441
+ 700.0000000    0.2029283
+ 800.0000000    0.1902428
+ 900.0000000    0.2492118
+1000.0000000    0.1963790

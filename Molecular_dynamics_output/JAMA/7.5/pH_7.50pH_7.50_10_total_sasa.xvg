@@ -1,0 +1,35 @@
+# This file was created Sun Sep 21 10:54:59 2025
+# Created by:
+#                       :-) GROMACS - gmx sasa, 2025.2 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /content/drive/MyDrive/MD/JAM_pH/JAMA/gromacs
+# Command line:
+#   gmx sasa -s /content/drive/MyDrive/MD/JAM_pH/JAMA/gromacs/7.50/pH_7.50pH_7.50_1.tpr -f /content/drive/MyDrive/MD/JAM_pH/JAMA/gromacs/7.50/pH_7.50pH_7.50_10.xtc -o /content/drive/MyDrive/MD/JAM_pH/JAMA/gromacs/7.50/pH_7.50pH_7.50_10_total_sasa.xvg -or /content/drive/MyDrive/MD/JAM_pH/JAMA/gromacs/7.50/pH_7.50pH_7.50_10_sasa.xvg
+# gmx sasa is part of G R O M A C S:
+#
+# GRowing Old MAkes el Chrono Sweat
+#
+@    title "Solvent Accessible Surface"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Area (nm\S2\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Total"
+      0.000  114.656
+    100.000  113.698
+    200.000  115.784
+    300.000  116.381
+    400.000  112.521
+    500.000  116.068
+    600.000  116.407
+    700.000  116.328
+    800.000  115.774
+    900.000  114.817
+   1000.000  114.626

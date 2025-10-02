@@ -1,0 +1,29 @@
+# This file was created Sun Sep 21 13:23:37 2025
+# Created by:
+#                       :-) GROMACS - gmx rms, 2025.2 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /content/drive/MyDrive/MD/JAM_pH/JAMB/gromacs
+# Command line:
+#   gmx rms -s /content/drive/MyDrive/MD/JAM_pH/JAMB/gromacs/6.50/pH_6.50pH_6.50_4.tpr -f /content/drive/MyDrive/MD/JAM_pH/JAMB/gromacs/6.50/pH_6.50pH_6.50_10.xtc -o /content/drive/MyDrive/MD/JAM_pH/JAMB/gromacs/6.50/pH_6.50pH_6.50_10.xtc_rmsd.xvg
+# gmx rms is part of G R O M A C S:
+#
+# GRowing Old MAkes el Chrono Sweat
+#
+@    title "RMSD"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "RMSD (nm)"
+@TYPE xy
+@ subtitle "Protein after lsq fit to Protein"
+   0.0000000    0.2123137
+ 100.0000000    0.2197408
+ 200.0000000    0.2723546
+ 300.0000000    0.2398360
+ 400.0000000    0.2465264
+ 500.0000000    0.2684098
+ 600.0000000    0.3523982
+ 700.0000000    0.2408551
+ 800.0000000    0.2840124
+ 900.0000000    0.2512179
+1000.0000000    0.2346808

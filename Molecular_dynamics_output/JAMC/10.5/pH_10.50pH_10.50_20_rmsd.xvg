@@ -1,0 +1,29 @@
+# This file was created Sun Sep 21 13:15:04 2025
+# Created by:
+#                       :-) GROMACS - gmx rms, 2025.2 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /content/drive/MyDrive/MD/JAM_pH/JAMB/gromacs
+# Command line:
+#   gmx rms -s /content/drive/MyDrive/MD/JAM_pH/JAMC/gromacs/10.50/pH_10.50pH_10.50_1.tpr -f /content/drive/MyDrive/MD/JAM_pH/JAMC/gromacs/10.50/pH_10.50pH_10.50_20.xtc -o /content/drive/MyDrive/MD/JAM_pH/JAMC/gromacs/10.50/pH_10.50pH_10.50_20_rmsd.xvg
+# gmx rms is part of G R O M A C S:
+#
+# Gravel Rubs Often Many Awfully Cauterized Sores
+#
+@    title "RMSD"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "RMSD (nm)"
+@TYPE xy
+@ subtitle "Protein after lsq fit to Protein"
+   0.0000000    0.2416349
+ 100.0000000    0.2631748
+ 200.0000000    0.2664677
+ 300.0000000    0.2848903
+ 400.0000000    0.2174871
+ 500.0000000    0.2855812
+ 600.0000000    0.2539970
+ 700.0000000    0.2482736
+ 800.0000000    0.2309697
+ 900.0000000    0.1982692
+1000.0000000    0.2208600

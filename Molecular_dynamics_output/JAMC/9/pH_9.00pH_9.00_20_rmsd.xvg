@@ -1,0 +1,29 @@
+# This file was created Sun Sep 21 13:14:42 2025
+# Created by:
+#                       :-) GROMACS - gmx rms, 2025.2 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /content/drive/MyDrive/MD/JAM_pH/JAMB/gromacs
+# Command line:
+#   gmx rms -s /content/drive/MyDrive/MD/JAM_pH/JAMC/gromacs/9.00/pH_9.00pH_9.00_1.tpr -f /content/drive/MyDrive/MD/JAM_pH/JAMC/gromacs/9.00/pH_9.00pH_9.00_20.xtc -o /content/drive/MyDrive/MD/JAM_pH/JAMC/gromacs/9.00/pH_9.00pH_9.00_20_rmsd.xvg
+# gmx rms is part of G R O M A C S:
+#
+# Good gRace! Old Maple Actually Chews Slate
+#
+@    title "RMSD"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "RMSD (nm)"
+@TYPE xy
+@ subtitle "Protein after lsq fit to Protein"
+   0.0000000    0.2543174
+ 100.0000000    0.2262933
+ 200.0000000    0.2864208
+ 300.0000000    0.3021100
+ 400.0000000    0.2921723
+ 500.0000000    0.2638656
+ 600.0000000    0.2758268
+ 700.0000000    0.3003170
+ 800.0000000    0.2640707
+ 900.0000000    0.3020329
+1000.0000000    0.2790265

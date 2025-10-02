@@ -1,0 +1,35 @@
+# This file was created Sun Sep 21 10:54:52 2025
+# Created by:
+#                       :-) GROMACS - gmx sasa, 2025.2 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /content/drive/MyDrive/MD/JAM_pH/JAMA/gromacs
+# Command line:
+#   gmx sasa -s /content/drive/MyDrive/MD/JAM_pH/JAMA/gromacs/7.00/pH_7.00pH_7.00_1.tpr -f /content/drive/MyDrive/MD/JAM_pH/JAMA/gromacs/7.00/pH_7.00pH_7.00_20.xtc -o /content/drive/MyDrive/MD/JAM_pH/JAMA/gromacs/7.00/pH_7.00pH_7.00_20_total_sasa.xvg -or /content/drive/MyDrive/MD/JAM_pH/JAMA/gromacs/7.00/pH_7.00pH_7.00_20_sasa.xvg
+# gmx sasa is part of G R O M A C S:
+#
+# Great Red Oystrich Makes All Chemists Sane
+#
+@    title "Solvent Accessible Surface"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Area (nm\S2\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Total"
+      0.000  110.899
+    100.000  114.519
+    200.000  114.258
+    300.000  114.943
+    400.000  114.823
+    500.000  111.259
+    600.000  112.390
+    700.000  113.789
+    800.000  110.584
+    900.000  112.332
+   1000.000  111.550

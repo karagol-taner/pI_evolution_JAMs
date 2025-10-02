@@ -1,0 +1,29 @@
+# This file was created Sun Sep 21 13:12:09 2025
+# Created by:
+#                       :-) GROMACS - gmx rms, 2025.2 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /content/drive/MyDrive/MD/JAM_pH/JAMB/gromacs
+# Command line:
+#   gmx rms -s /content/drive/MyDrive/MD/JAM_pH/JAMA/gromacs/7.50/pH_7.50pH_7.50_16.tpr -f /content/drive/MyDrive/MD/JAM_pH/JAMA/gromacs/7.50/pH_7.50pH_7.50_10.xtc -o /content/drive/MyDrive/MD/JAM_pH/JAMA/gromacs/7.50/pH_7.50pH_7.50_10.xtc_rmsd.xvg
+# gmx rms is part of G R O M A C S:
+#
+# Giant Rising Ordinary Mutants for A Clerical Setup
+#
+@    title "RMSD"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "RMSD (nm)"
+@TYPE xy
+@ subtitle "Protein after lsq fit to Protein"
+   0.0000000    0.2828847
+ 100.0000000    0.3124269
+ 200.0000000    0.2307715
+ 300.0000000    0.2756452
+ 400.0000000    0.3286855
+ 500.0000000    0.2402649
+ 600.0000000    0.2347763
+ 700.0000000    0.2565425
+ 800.0000000    0.2372873
+ 900.0000000    0.2188917
+1000.0000000    0.2474487

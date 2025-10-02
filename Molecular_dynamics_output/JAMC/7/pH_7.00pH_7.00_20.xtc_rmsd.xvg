@@ -1,0 +1,29 @@
+# This file was created Sun Sep 21 13:09:06 2025
+# Created by:
+#                       :-) GROMACS - gmx rms, 2025.2 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /content/drive/MyDrive/MD/JAM_pH/JAMB/gromacs
+# Command line:
+#   gmx rms -s /content/drive/MyDrive/MD/JAM_pH/JAMC/gromacs/7.00/pH_7.00pH_7.00_5.tpr -f /content/drive/MyDrive/MD/JAM_pH/JAMC/gromacs/7.00/pH_7.00pH_7.00_20.xtc -o /content/drive/MyDrive/MD/JAM_pH/JAMC/gromacs/7.00/pH_7.00pH_7.00_20.xtc_rmsd.xvg
+# gmx rms is part of G R O M A C S:
+#
+# Gallium Rubidium Oxygen Manganese Argon Carbon Silicon
+#
+@    title "RMSD"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "RMSD (nm)"
+@TYPE xy
+@ subtitle "Protein after lsq fit to Protein"
+   0.0000000    0.2782611
+ 100.0000000    0.2639467
+ 200.0000000    0.3134600
+ 300.0000000    0.2593226
+ 400.0000000    0.3031866
+ 500.0000000    0.2906452
+ 600.0000000    0.2978532
+ 700.0000000    0.3023891
+ 800.0000000    0.2855393
+ 900.0000000    0.2602721
+1000.0000000    0.2900511

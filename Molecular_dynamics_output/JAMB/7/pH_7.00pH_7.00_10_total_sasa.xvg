@@ -1,0 +1,35 @@
+# This file was created Sun Sep 21 13:27:56 2025
+# Created by:
+#                       :-) GROMACS - gmx sasa, 2025.2 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /content/drive/MyDrive/MD/JAM_pH/JAMB/gromacs
+# Command line:
+#   gmx sasa -s /content/drive/MyDrive/MD/JAM_pH/JAMB/gromacs/7.00/pH_7.00pH_7.00_1.tpr -f /content/drive/MyDrive/MD/JAM_pH/JAMB/gromacs/7.00/pH_7.00pH_7.00_10.xtc -o /content/drive/MyDrive/MD/JAM_pH/JAMB/gromacs/7.00/pH_7.00pH_7.00_10_total_sasa.xvg -or /content/drive/MyDrive/MD/JAM_pH/JAMB/gromacs/7.00/pH_7.00pH_7.00_10_sasa.xvg
+# gmx sasa is part of G R O M A C S:
+#
+# Guyana Rwanda Oman Macau Angola Cameroon Senegal
+#
+@    title "Solvent Accessible Surface"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Area (nm\S2\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Total"
+      0.000  119.204
+    100.000  118.537
+    200.000  120.437
+    300.000  120.040
+    400.000  122.281
+    500.000  121.263
+    600.000  121.044
+    700.000  121.222
+    800.000  120.107
+    900.000  119.634
+   1000.000  119.546

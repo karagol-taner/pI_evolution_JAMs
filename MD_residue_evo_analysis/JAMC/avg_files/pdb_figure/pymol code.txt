@@ -1,0 +1,2 @@
+spectrum b, blue_white_red, minimum=0, maximum=0.25
+spectrum b, blue_white_red, minimum=2.77, maximum=10.76

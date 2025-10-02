@@ -1,0 +1,2 @@
+residue,SEQ,residue_pi,SCORE,avg_rmsf_all_ph,delta_rmsf,avg_sasa_all_ph,delta_sasa,pI_group
+66,Q,5.65,3.006,0.1652,0.07057,0.8178722222222222,0.3409500000000001,Acidic
